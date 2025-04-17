@@ -1,0 +1,8 @@
+samohlasky = 'aeiouáéíóú'
+souhlasky = 'bcčdďfghjklmnňprřsštťvzžcdž'
+vysledky = {'souhlasky': 0, 'samohlasky': 0}
+veta = 'Zvuk řeči je produkován otevřenou konfigurací vokálního traktu'
+
+for M in veta:
+  if type(M)==int:
+    print("je pismeno")
